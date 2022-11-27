@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		7ECE709129335F0900493B37 /* TheOneThing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TheOneThing; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECE709429335F0900493B37 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		7ECE709B2933715300493B37 /* "."gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "\".\"gitignore.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +42,8 @@
 		7ECE708829335F0900493B37 = {
 			isa = PBXGroup;
 			children = (
-				7ECE709329335F0900493B37 /* TheOneThing */,
+				7ECE709B2933715300493B37 /* "."gitignore.md */,
+				7ECE709329335F0900493B37 /* Ch1 */,
 				7ECE709229335F0900493B37 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +56,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7ECE709329335F0900493B37 /* TheOneThing */ = {
+		7ECE709329335F0900493B37 /* Ch1 */ = {
 			isa = PBXGroup;
 			children = (
 				7ECE709429335F0900493B37 /* main.c */,
 			);
-			path = TheOneThing;
+			path = Ch1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
