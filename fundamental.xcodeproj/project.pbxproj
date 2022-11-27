@@ -26,6 +26,7 @@
 		7ECE709129335F0900493B37 /* fundamental */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fundamental; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECE709429335F0900493B37 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		7ECE709B2933715300493B37 /* "."gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = "\".\"gitignore"; sourceTree = "<group>"; };
+		7ECE709D2933769D00493B37 /* C언어 개론.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "C언어 개론.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				7ECE709429335F0900493B37 /* main.c */,
+				7ECE709D2933769D00493B37 /* C언어 개론.md */,
 			);
 			path = ch1;
 			sourceTree = "<group>";
