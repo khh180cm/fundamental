@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7ECE709129335F0900493B37 /* TheOneThing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TheOneThing; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ECE709129335F0900493B37 /* fundamental */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fundamental; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECE709429335F0900493B37 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		7ECE709B2933715300493B37 /* "."gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = "\".\"gitignore"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,7 +51,7 @@
 		7ECE709229335F0900493B37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7ECE709129335F0900493B37 /* TheOneThing */,
+				7ECE709129335F0900493B37 /* fundamental */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7ECE709029335F0900493B37 /* TheOneThing */ = {
+		7ECE709029335F0900493B37 /* fundamental */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7ECE709829335F0900493B37 /* Build configuration list for PBXNativeTarget "TheOneThing" */;
+			buildConfigurationList = 7ECE709829335F0900493B37 /* Build configuration list for PBXNativeTarget "fundamental" */;
 			buildPhases = (
 				7ECE708D29335F0900493B37 /* Sources */,
 				7ECE708E29335F0900493B37 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = TheOneThing;
+			name = fundamental;
 			productName = TheOneThing;
-			productReference = 7ECE709129335F0900493B37 /* TheOneThing */;
+			productReference = 7ECE709129335F0900493B37 /* fundamental */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7ECE708C29335F0900493B37 /* Build configuration list for PBXProject "TheOneThing" */;
+			buildConfigurationList = 7ECE708C29335F0900493B37 /* Build configuration list for PBXProject "fundamental" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7ECE709029335F0900493B37 /* TheOneThing */,
+				7ECE709029335F0900493B37 /* fundamental */,
 			);
 		};
 /* End PBXProject section */
@@ -256,7 +256,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7ECE708C29335F0900493B37 /* Build configuration list for PBXProject "TheOneThing" */ = {
+		7ECE708C29335F0900493B37 /* Build configuration list for PBXProject "fundamental" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7ECE709629335F0900493B37 /* Debug */,
@@ -265,7 +265,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7ECE709829335F0900493B37 /* Build configuration list for PBXNativeTarget "TheOneThing" */ = {
+		7ECE709829335F0900493B37 /* Build configuration list for PBXNativeTarget "fundamental" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7ECE709929335F0900493B37 /* Debug */,
