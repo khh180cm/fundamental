@@ -43,7 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				7ECE709B2933715300493B37 /* "."gitignore */,
-				7ECE709329335F0900493B37 /* Ch1 */,
+				7ECE709329335F0900493B37 /* ch1 */,
 				7ECE709229335F0900493B37 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +56,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7ECE709329335F0900493B37 /* Ch1 */ = {
+		7ECE709329335F0900493B37 /* ch1 */ = {
 			isa = PBXGroup;
 			children = (
 				7ECE709429335F0900493B37 /* main.c */,
 			);
-			path = Ch1;
+			path = ch1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
