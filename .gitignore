@@ -569,11 +569,17 @@ FodyWeavers.xsd
 
 # Executables
 *.exe
+**/*.exe
 *.out
+**/*.out
 *.app
+**/*.app
 *.i*86
+**/*.i*86
 *.x86_64
+**/*.x86_64
 *.hex
+**/*.hex
 
 # Debug files
 *.dSYM/
@@ -584,6 +590,7 @@ FodyWeavers.xsd
 # Kernel Module Compile Results
 *.mod*
 *.cmd
+**/*.cmd
 .tmp_versions/
 modules.order
 Module.symvers
