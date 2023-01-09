@@ -1,35 +1,27 @@
 #include <stdio.h>
-void GetFibos(int);
+int GetNthFibo(int);
+void ShowFiboUntil(int);
 
 int main(void)
 {
-    int cnt;
+    int n;
     printf("몇 개의 피보나치 수열을 보시겠습니까:  ");
-    scanf("%d", &cnt);
+    scanf("%d", &n);
 
-    GetFibos(cnt);
+    ShowFiboUntil(n);
+    return 0;
 }
 
-void GetFibos(int n)
+int GetNthFibo(int n)
 {
-    int prevprev=0, prev=0, cur;
-    for(int i = 0; i<n; i++)
-    {
-        if(n<3)
-        {
-            if(n==1)
-                cur = 0;
-            else
-                cur = 1;
-            printf("%d", cur);
-        }
-        else
-        {
-            cur = prevprev + prev;
-            printf("%d", cur);
-        }
-        prevprev = prev;
-        prev = cur;
-    }
-    printf("\n");
+    return 0;
 }
+
+void ShowFiboUntil(int n)
+{
+    for(int i=1; i<n+1; i++)
+    {
+        printf("%d ", GetNthFibo(i));
+    }
+}
+
