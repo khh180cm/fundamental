@@ -2,10 +2,8 @@
 
 void HowToRunProgram(void);
 int ReadNum(void);
-int WhatMaxNumberIs(int, int, int);
-int WhatMinNumberIs(int, int, int);
-int CompareAndReturnMax(int,int);
-int CompareAndReturnMin(int, int);
+int FindMax(int, int, int);
+int FindMin(int, int, int);
 void ShowMaxResult(int);
 void ShowMinResult(int);
 
@@ -17,8 +15,8 @@ int main(void)
     num2=ReadNum();
     num3=ReadNum();
 
-    max = WhatMaxNumberIs(num1, num2, num3);
-    min = WhatMinNumberIs(num1, num2, num3);
+    max = FindMax(num1, num2, num3);
+    min = FindMin(num1, num2, num3);
     
     ShowMaxResult(max);
     ShowMinResult(min);
@@ -37,40 +35,20 @@ int ReadNum(void)
     return num;
 }
 
-int WhatMaxNumberIs(int num1, int num2, int num3)
-{
-    int temp;
-    temp = CompareAndReturnMax(num1, num2);
-    if(temp>num3)
-        return temp;
-    else
-        return num3;
-}
-
-int WhatMinNumberIs(int num1, int num2, int num3)
-{
-    int temp;
-    temp = CompareAndReturnMin(num1, num2);
-    if(temp>num3)
-        return num3;
-    else
-        return temp;
-}
-
-int CompareAndReturnMax(int num1, int num2)
+int FindMax(int num1, int num2, int num3)
 {
     if(num1>num2)
-        return num1;
+        return num1 > num3 ? num1 : num3; 
     else
-        return num2;
+        return num2 > num3 ? num2 : num3;
 }
 
-int CompareAndReturnMin(int num1, int num2)
+int FindMin(int num1, int num2, int num3)
 {
-    if(num1>num2)
-        return num2;
+    if(num1<num2)
+        return num1<num3 ? num1 : num3;
     else
-        return num1;
+        return num2<num3 ? num2 : num3;
 }
 
 void ShowMaxResult(int num)
