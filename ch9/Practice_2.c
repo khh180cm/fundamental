@@ -4,15 +4,33 @@ double FahToCel(double);
 
 int main(void)
 {
-    double cel = 70, fah = 270;
-    printf("섭씨(%.2lf)를 화씨로 변환한 값은 %.2lf입니다. \n", cel, CelToFah(cel));
-    printf("화씨(%.2lf)를 섭씨로 변환한 값은 %.2lf입니다. \n", fah, FahToCel(fah));
+    int choice;
+    double num;
+    printf("1.섭씨를 화씨로 2.화씨를 섭씨로 \n");
+    printf("선택>>");
+    scanf("%d", &choice);
+
+    if(choice==1)
+    {
+        printf("섭씨 입력: ");
+        scanf("%lf", &num);
+        printf("변환된 화씨: %.2f \n", CelToFah(num));
+    }
+    else if(choice==2)
+    {
+        printf("화씨 입력: ");
+        scanf("%lf", &num);
+        printf("변환된 섭씨: %.2f \n", FahToCel(num));
+    }
+    else
+        printf("선택 오류\n");
+
     return 0;
 }
 
 double CelToFah(double cel)
 {
-    return 1.8 * cel + 32;
+    return 1.8*cel + 32;
 }
 
 double FahToCel(double fah)
