@@ -21,13 +21,13 @@ void GetGCD(num1, num2)
     big = num1>num2 ? num1 : num2;
     small = num1>num2 ? num2 : num1;
 
-    do
+    remainder = big % small;
+    while(remainder!=0)
     {
-        remainder = big % small;
         big = small;
         small = remainder;
-        printf("%d, %d, %d", big, small, remainder);
-    }while(remainder==0);
+        remainder = big % small;
+    }
     gcd = small;
     printf("최대공약수는 %d입니다. \n", gcd);
 }
