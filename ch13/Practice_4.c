@@ -4,15 +4,15 @@ int main(void)
 {
     int arr[6]={1, 2, 3, 4, 5, 6};
     int temp;
-    int * first = arr;
-    int * last = &arr[5];
+    int * fptr = arr;
+    int * bptr = &arr[5];
 
-    while(first<=last)
+    while(fptr<=bptr)
     {
-        temp = *(first);
-        *(first) = *(last);
-        *(last) = temp;
-        ++first, --last;
+        temp = *(fptr);
+        *(fptr) = *(bptr);
+        *(bptr) = temp;
+        ++fptr, --bptr;
     }
 
     for(int i=0; i<6; i++)
