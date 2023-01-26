@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-void AddArrayElem(int * ptr, int len, int elem)
+void AddArrayElem(int * ptr, int len, int add)
 {
     for(int i=0; i<len; i++)
-        ptr[i]+=elem;
+        ptr[i]+=add;
 }
 
 void ShowArrayElem(int * ptr, int len)
