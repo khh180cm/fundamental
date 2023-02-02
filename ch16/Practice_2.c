@@ -13,7 +13,7 @@ int main(void)
         for (int j=0; j<2; j++)
         {
             arr2[i][j] = arr1[j][i];
-            printf("%d ", arr2[i][j]);
+            printf("%2d ", arr2[i][j]);
         }
         printf("\n");
     }
