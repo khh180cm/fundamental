@@ -25,9 +25,17 @@ int main(void)
 {
     int * maxPtr, * minPtr;
     int arr[5];
-    MaxAndMin(&maxPtr, &minPtr, arr, sizeof(arr) / sizeof(int));
+    int arrLen = sizeof(arr) / sizeof(int);
+
+    for (int i = 0; i < arrLen; i++)
+    {
+        printf("%d번째 숫자 입력 : ", i+1);
+        scanf("%d", &arr[i]);
+    }
+    printf("\n");
+
+    MaxAndMin(&maxPtr, &minPtr, arr, arrLen);
 
     printf("최대 : %d\n최소 : %d \n", *maxPtr, *minPtr);
-
     return 0;
 }
